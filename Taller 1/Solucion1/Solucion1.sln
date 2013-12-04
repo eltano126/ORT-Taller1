@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prueba1", "Prueba1\Prueba1.vcxproj", "{D8626FB2-DC77-419C-A230-834FB52EFAB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "buscarMaximo", "buscarMaximo\buscarMaximo.vcxproj", "{625523EF-16F4-4D37-9F5D-2688DB1E5D16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8626FB2-DC77-419C-A230-834FB52EFAB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8626FB2-DC77-419C-A230-834FB52EFAB4}.Debug|Win32.Build.0 = Debug|Win32
+		{D8626FB2-DC77-419C-A230-834FB52EFAB4}.Release|Win32.ActiveCfg = Release|Win32
+		{D8626FB2-DC77-419C-A230-834FB52EFAB4}.Release|Win32.Build.0 = Release|Win32
+		{625523EF-16F4-4D37-9F5D-2688DB1E5D16}.Debug|Win32.ActiveCfg = Debug|Win32
+		{625523EF-16F4-4D37-9F5D-2688DB1E5D16}.Debug|Win32.Build.0 = Debug|Win32
+		{625523EF-16F4-4D37-9F5D-2688DB1E5D16}.Release|Win32.ActiveCfg = Release|Win32
+		{625523EF-16F4-4D37-9F5D-2688DB1E5D16}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

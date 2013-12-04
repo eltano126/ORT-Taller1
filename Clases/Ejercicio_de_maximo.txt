@@ -1,0 +1,51 @@
+/*
+Fecha: 24/08/11
+Alumno: Lucas Guardado
+Objetivo: Programa para ingresar numeros y mostrar el maximo, se finaliza con un "0".
+*/
+
+#include <iostream>
+using namespace std;
+
+void  main ()
+{
+// Declaración de variables
+	int num; // Guarda el numero ingresado
+	int max; // Guarda el valor máximo
+
+// Desarrollo del programa.
+	
+// Pedimos un numero para el programa
+	cout << "Por favor ingrese un numero.0 (cero) Para terminar." << endl;
+	cout << "Presione ENTER para continuar";
+	cin >> num;
+	getchar ();
+
+// Guardamos el numero como máximo
+	max = num;
+
+
+	while (num != 0)
+	{
+		if (num > max)
+		{
+			max = num;
+		}
+		cout << "Por favor ingrese un numero.0 (cero) Para terminar." << endl;
+	cout << "Presione ENTER para continuar" ;
+	cin >> num;
+	getchar ();
+	}
+		if (max != 0)
+		{
+			cout << "El máximo es " << max;
+			getchar ();
+		}
+		else
+		{
+			cout << "No hay ningun maximo";
+		}
+
+}
+
+	// nota al margen: La tabulación se dice "identación"
